@@ -8,4 +8,9 @@ describe("Fibonacci Function", function () {
     it("should return 0 for fibonacci(0)", function () {
         expect(fibonacci(0)).to.equal(0);
     });
+
+    it("should return 1 for fibonacci(1)", function () {
+        expect(fibonacci(1)).to.equal(1);
+    });
+
 });
