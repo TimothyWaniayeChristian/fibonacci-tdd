@@ -21,6 +21,15 @@ describe("Fibonacci Function", function () {
         expect(fibonacci(3)).to.equal(2);
     });
 
+    it("should return 5 for fibonacci(5)", function () {
+        expect(fibonacci(5)).to.equal(5);
+    });
+
+    it("should return 8 for fibonacci(6)", function () {
+        expect(fibonacci(6)).to.equal(8);
+    });
+
+
 
 
 });
