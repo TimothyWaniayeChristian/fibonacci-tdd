@@ -17,5 +17,10 @@ describe("Fibonacci Function", function () {
         expect(fibonacci(2)).to.equal(1);
     });
 
+    it("should return 2 for fibonacci(3)", function () {
+        expect(fibonacci(3)).to.equal(2);
+    });
+
+
 
 });
